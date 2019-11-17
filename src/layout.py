@@ -19,6 +19,8 @@ def get_navbar(title: str) -> dbc.NavbarSimple:
 
 
 def serve_layout(title: str) -> Any:
+    """Wrapper for layout function to pass title"""
+
     def _layout() -> html.Div:
         """Function to create layout on each page refresh"""
         return html.Div([

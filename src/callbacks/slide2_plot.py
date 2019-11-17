@@ -14,8 +14,6 @@ def update_plot(url: str) -> Div:
     if "plot" not in url:
         raise PreventUpdate
 
-    from time import sleep
-    sleep(10000)
     df = pd.DataFrame(np.random.normal(size=10000), columns=["Normal Distribution"])
     return create_histogram(df, "Normal Distribution")
 
