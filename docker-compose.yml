@@ -1,0 +1,13 @@
+version: "3"
+
+services:
+  python:
+    build: .
+    container_name: app-python-dash
+    restart: always
+    command: python app.py
+    working_dir: /app
+    volumes:
+      - ./:/app
+    ports:
+      - "8050:8050"

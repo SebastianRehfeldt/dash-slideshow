@@ -1,0 +1,46 @@
+body {
+  background: #e4e3e3;
+}
+#container-main {
+  background: white;
+  min-height: 100vh;
+  padding-bottom: 3rem;
+}
+#btn-next,
+#btn-prev {
+  position: fixed;
+  width: 48px;
+  height: 48px;
+  border-radius: 100%;
+  padding: 8px;
+  top: 50%;
+}
+#btn-next {
+  right: 2rem;
+}
+#btn-prev {
+  left: 2rem;
+  padding-left: 7px;
+}
+
+#btn-next > span,
+#btn-prev > span {
+  width: 32px;
+  height: 32px;
+  margin: 0px;
+  padding: 8px;
+}
+
+.list-spacing > li {
+  margin-bottom: 2rem;
+}
+
+.previous-page {
+  margin-top: 2rem;
+  margin-left: calc(50% - 7rem);
+  width: 6rem;
+}
+.next-page {
+  margin-left: 2rem;
+  width: 6rem;
+}

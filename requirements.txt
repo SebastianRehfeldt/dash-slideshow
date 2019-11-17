@@ -1,0 +1,6 @@
+dash==1.6.1
+dash-bootstrap-components==0.7.2
+autopep8==1.4.4
+mypy==0.740
+pylint==2.4.4
+flake8==3.7.9

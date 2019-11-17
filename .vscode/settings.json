@@ -1,0 +1,13 @@
+{
+    "files.exclude": {
+        "**/.git": true,
+        "**/__pycache__": true,
+        "**/.mypy_cache": true,
+        "env": true,
+    },
+    "python.formatting.provider": "autopep8",
+    "editor.formatOnSave": true,
+    "python.linting.lintOnSave": true,
+    "python.linting.flake8Enabled": true,
+    "python.linting.mypyEnabled": true
+}

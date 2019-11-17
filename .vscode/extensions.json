@@ -1,0 +1,13 @@
+{
+    "recommendations": [
+        "ms-python.python",
+        "yzhang.markdown-all-in-one",
+        "coenraads.bracket-pair-colorizer-2",
+        "ms-azuretools.vscode-docker",
+        "formulahendry.docker-explorer",
+        "ms-vscode-remote.vscode-remote-extensionpack",
+        "grapecity.gc-excelviewer",
+        "christian-kohler.path-intellisense",
+        "visualstudioexptteam.vscodeintellicode"
+    ]
+}
