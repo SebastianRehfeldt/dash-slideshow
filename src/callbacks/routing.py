@@ -1,18 +1,12 @@
 """Routing callback"""
 from dash import Dash, callback_context
 from dash.dependencies import Input, Output, State
-from src.slides import create_page
+from src.slides import create_page, get_pages
 
 
 def update_url(_: int, __: int, url: str) -> str:
     """Update url based on buttons"""
-    slides = [
-        "/overview",
-        "/data",
-        "/question1",
-        "/question2",
-        "/question3",
-    ]
+    slides = list(get_pages().keys())
     if url not in slides:
         return slides[0]
 

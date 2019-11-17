@@ -5,7 +5,8 @@ services:
     build: .
     container_name: app-python-dash
     restart: always
-    command: python app.py
+    # command: gunicorn -w 4 --bind 0.0.0.0:8050 app:server
+    command: gunicorn --reload --bind 0.0.0.0:8050 app:server
     working_dir: /app
     volumes:
       - ./:/app
