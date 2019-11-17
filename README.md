@@ -5,7 +5,9 @@ This project implements a simple slideshow using Python Dash. The project provid
 
 ## Screenshots
 
-
+|                                      Agenda                                       |                          Slide with interactive Plot                          |
+| :-------------------------------------------------------------------------------: | :---------------------------------------------------------------------------: |
+| ![](https://github.com/SebastianRehfeldt/dash-slideshow/docs/images/overview.png) | ![](https://github.com/SebastianRehfeldt/dash-slideshow/docs/images/plot.png) |
 
 
 ## Add your own slides
